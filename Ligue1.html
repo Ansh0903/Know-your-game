@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ligue 1</title>
+<link rel="stylesheet" href="style8.css">
+<!--font awesome CND LINK for Icons-->
+<script src="https://kit.fontawesome.com/433a63f19b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--start Quiz Button-->
+  <div class="start_btn"><button>Start Quiz</button></div>
+   <!--Info Box-->
+   <div class="info_box">
+       <div class="info_title">
+            <span>Rules:</span>
+        </div>
+        <div class="info_list">
+            <div class="info"> 1. You will get <span>15 seconds</span> per question.</div>
+            <div class="info"> 2. To pass the Quiz 8/10 Question should be correct. </div>
+            <div class="info"> 3. You can't undo once selected a option.</div>
+            <div class="info"> 4. Only correct answer will give you points.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">EXIT Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div> 
+    <!--Quiz Box-->
+    <div class="quiz_box">
+        <header>
+            <div class="title"><i>Know Your Game</i></div>
+            <div class="timer">
+               <div class="time_text">Time Left</div>
+               <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+    <section>
+        <div class="que_text">
+           <!--<span> <b>  Which player has scored the most goals in the premier league history?</b></span>-->
+        </div>
+        <div class="option_list">
+           <!-- <div class="option">
+                <span>Wayne Rooney</span>
+                 <div class="icon tick"><i class="fas fa-check"></i></div>
+                 </div>
+                     <div class="option">
+                <span>cristiano Ronaldo</span>
+                    <div class="icon"><i class="fas fa-times"></i></div>
+                 </div>
+                <div class="option">
+                    <span>Alan shearer</span>
+                 </div>      
+                <div class="option">
+                    <span>Micheal owen</span>                 
+            </div>-->
+        </div>
+    </section>
+    <!--Quiz Box Footer-->
+    <footer>
+        <div class="total_que">
+           <!-- <span><p>1</p>of<p>10</p>Questions</span>-->
+        </div>
+        <button class="next_btn">next Que</button>
+    </footer>
+    </div>
+    <!--Result Box-->
+    <div class="result_Box">
+       <div class="icon">
+           <i class="fas fa-crown"></i>
+       </div>
+       <div class="complete_text">You've completed the quiz!</div>
+       <div class="score_text">
+            <!--<span> and sorry, you got only<p>8</p>out of<p>10</p></span>-->
+       </div>
+    <div class="buttons">
+        <button class = "restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+       </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="questionsLigue.js"></script>
+    </body>
+</html>
